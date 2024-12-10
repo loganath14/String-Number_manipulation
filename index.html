@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String | Number Manipulation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <center>
+        <h1>String | Number Manipulation</h1>
+    </center>
+    <div class="main-div">
+        <div class="str-mani">
+            <input type="text" name="task2" id="stringInput" class="task2" placeholder="Enter a String" /><br>
+            <button onclick="strManipulation('uppercase')">Uppercase</button><br>
+            <button onclick="strManipulation('reverse')">Reverse</button><br>
+            <button onclick="strManipulation('count')">Count characters</button>
+        </div>
+        <div class="strmani-result"></div>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div class="sub-div">
+        <div class="num-mani">
+            <input type="number" name="task2" id="numberInput" class="task2" placeholder="Enter a Number" /><br>
+            <button onclick="numManipulation('oddOrEven')">Odd or Even</button><br>
+            <button onclick="numManipulation('squareRoot')">Square Root</button><br>
+            <button onclick="numManipulation('twoDecimal')">Num of 2 Decimal</button>
+        </div>
+        <div class="nummani-result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
